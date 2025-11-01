@@ -1,5 +1,6 @@
 Foto Data Diisi
-<img width="780" height="974" alt="image" src="https://github.com/user-attachments/assets/f50fb286-d7a6-4926-9d7a-a3532d99ab6c" />
+<img width="892" height="971" alt="image" src="https://github.com/user-attachments/assets/409904cd-a1d8-4c17-bc83-92a05b50bcc2" />
+
 
 
 Foto Data Belum Diisi
