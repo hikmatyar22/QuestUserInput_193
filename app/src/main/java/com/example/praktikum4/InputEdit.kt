@@ -41,7 +41,8 @@ fun FormulirPendaftaran(modifier: Modifier) {
     var textMinat by remember { mutableStateOf("") }
     var textAlamat by remember { mutableStateOf("") }
 
-
+    val Jenis:List<String> = listOf("Laki-Laki","Perempuan")
+    val Minat:List<String> = listOf("Programming ", "Cyber Scurity", "Basis Data")
 
 
 
