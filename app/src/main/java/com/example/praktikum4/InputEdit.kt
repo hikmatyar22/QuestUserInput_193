@@ -196,6 +196,7 @@ fun FormulirPendaftaran(modifier: Modifier) {
                         println("Alamat: $textAlamat")
                     },
                     modifier = Modifier.fillMaxWidth(),
+                    enabled = textAlamat.isNotEmpty(),
                     colors = ButtonDefaults.buttonColors(
                         containerColor = Color.LightGray
                     ),
