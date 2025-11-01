@@ -51,7 +51,17 @@ fun FormulirPendaftaran(modifier: Modifier) {
             .padding(top = 30.dp, start = 20.dp, end = 20.dp, bottom = 30.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Text(
+            text = stringResource(id = R.string.titel),
+            fontSize = 25.sp,
+            fontWeight = FontWeight.Bold,
+            color = Color.White,
+            modifier = Modifier.padding(bottom = 24.dp)
+        )
 
+
+
+        }
 
     }
 }
