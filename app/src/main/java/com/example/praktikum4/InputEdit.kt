@@ -58,7 +58,15 @@ fun FormulirPendaftaran(modifier: Modifier) {
             color = Color.White,
             modifier = Modifier.padding(bottom = 24.dp)
         )
+        Card(
+            modifier = Modifier.fillMaxWidth(),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.Black
+            ),
+            shape = RoundedCornerShape(24.dp),
+        ) {
 
+            }
 
 
         }
