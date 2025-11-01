@@ -142,15 +142,15 @@ fun FormulirPendaftaran(modifier: Modifier) {
                         modifier = Modifier
                             .fillMaxWidth()
                             .selectable(
-                                selected = (textJenis == item),
-                                onClick = { textJenis = item }
+                                selected = (textMinat == item),
+                                onClick = { textMinat = item }
                             )
                             .padding(vertical = 2.dp),
                         verticalAlignment = Alignment.CenterVertically
                     ) {
                         RadioButton(
-                            selected = (textJenis == item),
-                            onClick = { textJenis = item },
+                            selected = (textMinat == item),
+                            onClick = { textMinat = item },
                             colors = RadioButtonDefaults.colors(
                                 selectedColor = Color.White
                             )
