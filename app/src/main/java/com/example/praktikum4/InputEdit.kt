@@ -201,9 +201,14 @@ fun FormulirPendaftaran(modifier: Modifier) {
                     ),
                     shape = MaterialTheme.shapes.extraLarge
                 ) {
-
+                    Text(
+                        text = stringResource(id = R.string.submit),
+                        fontSize = 16.sp,
+                        fontWeight = FontWeight.Bold,
+                        modifier = Modifier.padding(vertical = 8.dp)
+                    )
                 }
-
+                Spacer(modifier = Modifier.height(15.dp))
             }
 
 
