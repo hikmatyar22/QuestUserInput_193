@@ -101,7 +101,30 @@ fun FormulirPendaftaran(modifier: Modifier) {
                     modifier = Modifier.padding(bottom = 8.dp)
                 )
 
-
+                Jenis.forEach { item ->
+                    Row(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .selectable(
+                                selected = (textJenis == item),
+                                onClick = { textJenis = item }
+                            )
+                            .padding(vertical = 2.dp),
+                        verticalAlignment = Alignment.CenterVertically
+                    ) {
+                        RadioButton(
+                            selected = (textJenis == item),
+                            onClick = { textJenis = item },
+                            colors = RadioButtonDefaults.colors(
+                                selectedColor = Color.White
+                            )
+                        )
+                        Text(
+                            text = item,
+                            color = Color.White,
+                            modifier = Modifier.padding(start = 8.dp)
+                        )
+                    }
                 }
 
 
