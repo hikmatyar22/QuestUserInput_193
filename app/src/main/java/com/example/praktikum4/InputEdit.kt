@@ -65,8 +65,24 @@ fun FormulirPendaftaran(modifier: Modifier) {
             ),
             shape = RoundedCornerShape(24.dp),
         ) {
+            Column(
+                modifier = Modifier
+                    .padding(20.dp),
+                verticalArrangement = Arrangement.Top,
+                horizontalAlignment = Alignment.Start
+            ) {
+                Text(
+                    text = stringResource(id = R.string.nama),
+                    fontSize = 12.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.White,
+                    modifier = Modifier.padding(bottom = 8.dp)
+                )
 
-            }
+
+                }
+
+
 
 
         }
