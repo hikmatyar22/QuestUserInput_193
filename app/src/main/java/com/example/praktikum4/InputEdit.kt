@@ -38,6 +38,7 @@ import androidx.compose.ui.unit.sp
 fun FormulirPendaftaran(modifier: Modifier) {
     var textNama by remember { mutableStateOf("") }
     var textJenis by remember { mutableStateOf("") }
+    var textMinat by remember { mutableStateOf("") }
 
 
 
