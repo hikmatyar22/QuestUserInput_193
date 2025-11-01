@@ -39,6 +39,8 @@ fun FormulirPendaftaran(modifier: Modifier) {
     var textNama by remember { mutableStateOf("") }
     var textJenis by remember { mutableStateOf("") }
     var textMinat by remember { mutableStateOf("") }
+    var textAlamat by remember { mutableStateOf("") }
+
 
 
 
