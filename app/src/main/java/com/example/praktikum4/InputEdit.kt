@@ -163,6 +163,18 @@ fun FormulirPendaftaran(modifier: Modifier) {
                     }
                 }
 
+                Spacer(modifier = Modifier.height(15.dp))
+
+
+                Text(
+                    text = stringResource(id = R.string.alamat),
+                    fontSize = 12.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.White,
+                    modifier = Modifier.padding(bottom = 8.dp)
+                )
+
+
             }
 
 
