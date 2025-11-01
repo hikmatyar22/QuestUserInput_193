@@ -5,4 +5,6 @@
     <string name="titel">FORMULIR PENDAFTARAAN</string>
     <string name="nama">NAMA LENGKAP</string>
     <string name="jenis">JENIS KELAMIN</string>
+    <string name="minat">PERMINATAAN</string>
+    <string name="alamat">ALAMAT</string>
 </resources>
