@@ -1,5 +1,6 @@
 Foto Data Diisi
-<img width="892" height="971" alt="image" src="https://github.com/user-attachments/assets/409904cd-a1d8-4c17-bc83-92a05b50bcc2" />
+<img width="669" height="972" alt="image" src="https://github.com/user-attachments/assets/364dec0a-4386-4d62-a567-05403c037a06" />
+
 
 
 
