@@ -44,8 +44,15 @@ fun FormulirPendaftaran(modifier: Modifier) {
     val Jenis:List<String> = listOf("Laki-Laki","Perempuan")
     val Minat:List<String> = listOf("Programming ", "Cyber Scurity", "Basis Data")
 
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .background(Color.DarkGray)
+            .padding(top = 30.dp, start = 20.dp, end = 20.dp, bottom = 30.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
 
 
-
+    }
 }
 
